@@ -1,0 +1,38 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.task-item span {
+  display: inline-flex;
+}
+
+.task-item button {
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-item button:hover {
+  background-color: #fafafa;
+
+}

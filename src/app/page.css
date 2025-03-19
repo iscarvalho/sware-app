@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(230, 229, 229, 0.621);
+}
+
+.task-container h2 {
+  margin-bottom: 1rem;
+
+}

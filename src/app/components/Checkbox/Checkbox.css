@@ -1,0 +1,28 @@
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+.custom-checkbox .checkmark {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+  position: relative;
+}
+
+.custom-checkbox input:checked+.checkmark {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.label-text {
+  font-size: 14px;
+}
